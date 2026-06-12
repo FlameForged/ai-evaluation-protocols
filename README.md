@@ -2,61 +2,43 @@ AI Evaluation Protocols
 
 Structured rubrics, protocols, and failure-mode taxonomies for evaluating conversational AI behavior, safety, and sustained human-AI interaction.
 
-This repository is part of my broader independent research program on human-AI interaction, conversational AI evaluation, personalization safety, and interaction-level model behavior.
+This repository is part of my independent research on long-horizon human-AI interaction, conversational AI evaluation, personalization safety, and responsible model auditing.
 
-Related paper:
-
-Third-Space Cognition: Interaction-Level Dynamics in Sustained Human-AI Coupling
-Zenodo DOI: 10.5281/zenodo.18679265
+Related Paper: “Third-Space Cognition: Interaction-Level Dynamics in Sustained Human-AI Coupling”
 
 Purpose
 
-AI systems are often evaluated through isolated prompts, benchmark tasks, or short interaction samples. This repository focuses on a different evaluation problem:
+Most AI evaluations focus on single prompts, benchmark tasks, or short interactions. This toolkit targets sustained, multi-turn conversations — the context where many critical safety, trust, personalization, and behavioral issues emerge.
 
-How do conversational AI systems behave across sustained, multi-turn, emotionally and cognitively complex interactions?
+The goal is to provide reusable structures for documenting model behavior, identifying failure modes, scoring interaction quality, and supporting responsible red-teaming methodology.
 
-The goal of this project is to organize practical evaluation tools for identifying, documenting, and analyzing model behavior patterns such as:
-
-* hallucination and overconfidence
-* false continuity or apparent memory
-* safety overreach and under-enforcement
-* context drift
-* emotional overfitting
-* evasive or non-responsive helpfulness
-* degraded instruction-following across long interactions
-* trust calibration failures
-* conversational breakdowns
-
-What This Repository Contains
-
-This repository is designed as a practical evaluation toolkit. It will include:
+What’s Inside
 
 File	Purpose
-failure_mode_taxonomy.md	Categorized model behavior and safety failure patterns
-evaluation_rubric.md	Rubric for scoring conversational AI responses
-prompt_protocols.md	Responsible testing protocols for sustained interaction evaluation
-case_study_template.md	Template for documenting model behavior findings
+failure_mode_taxonomy.md	Categorized failure modes including hallucination, guardrail issues, context drift, emotional overfitting, and trust calibration failures
+evaluation_rubric.md	Scoring rubric for conversational quality, safety, context awareness, and interaction dynamics
+prompt_protocols.md	Responsible testing protocols for long-horizon conversational AI evaluation
+case_study_template.md	Template for documenting specific model behavior findings
 scorecard_template.csv	Structured scoring sheet for evaluation results
 README.md	Project overview and research context
 
 Research Areas
 
-* AI evaluation
+* AI evaluation and red teaming
 * LLM evaluation
 * Conversational AI
 * Human-AI interaction
-* Human-Computer Interaction
-* AI safety
+* AI safety and alignment
 * Personalization safety
 * Trust calibration
 * Model behavior auditing
 * Responsible red-teaming methodology
 
-Responsible Evaluation Framing
+Responsible Use
 
-This repository is not intended as a jailbreak library or a collection of bypass instructions.
+This repository is not a jailbreak collection or bypass guide.
 
-Its purpose is to support responsible AI evaluation by documenting model behavior patterns, classifying failure modes, and creating reusable tools for structured analysis. Prompts and examples should be framed in ways that support safety research, not misuse.
+It is designed for responsible, safety-focused evaluation and research. The emphasis is on identifying model behavior patterns, documenting risks, scoring interaction quality, and suggesting mitigations.
 
 Related Projects
 
@@ -66,4 +48,16 @@ Related Projects
 
 Status
 
-Early-stage repository. Initial files will focus on qualitative evaluation rubrics, failure-mode taxonomy, and structured case documentation.
+Early-stage and actively expanding. Current work focuses on qualitative evaluation rubrics, failure-mode taxonomy, responsible prompt protocols, and structured case documentation.
+
+Citation
+
+If referencing this repository or related research, please cite:
+
+Siemasz, R. (2026). Third-Space Cognition: Interaction-Level Dynamics in Sustained Human-AI Coupling. Zenodo.
+DOI: 10.5281/zenodo.18679265
+
+Connect
+
+* LinkedIn: Rachelle Siemasz Hartley
+* GitHub: FlameForged
