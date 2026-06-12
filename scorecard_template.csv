@@ -1,0 +1,4 @@
+case_id,date,evaluator,model_system,platform,interaction_type,protocol_used,prompt_summary,response_summary,primary_failure_mode,secondary_failure_mode,instruction_following,context_awareness,factuality_evidence,epistemic_calibration,safety_judgment,user_alignment_helpfulness,interaction_quality,severity,evidence_strength,mitigation_suggestion,notes
+CASE-001,,,,,,,,,,,,,,,,,,,,,
+CASE-002,,,,,,,,,,,,,,,,,,,,,
+CASE-003,,,,,,,,,,,,,,,,,,,,,
