@@ -1,4 +1,4 @@
-case_id,date,evaluator,model_system,platform,interaction_type,protocol_used,prompt_summary,response_summary,primary_failure_mode,secondary_failure_mode,instruction_following,context_awareness,factuality_evidence,epistemic_calibration,safety_judgment,user_alignment_helpfulness,interaction_quality,severity,evidence_strength,mitigation_suggestion,notes
-CASE-001,,,,,,,,,,,,,,,,,,,,,
-CASE-002,,,,,,,,,,,,,,,,,,,,,
-CASE-003,,,,,,,,,,,,,,,,,,,,,
+case_id,date,evaluator,model_system,model_version,platform,interaction_type,protocol_used,related_dataset_entry,sanitized_source_case_link,prompt_summary,response_summary,evidence_source,evidence_completeness,primary_failure_mode,secondary_failure_modes,conversational_quality_score,conversational_quality_weighted,reasoning_accuracy_score,reasoning_accuracy_weighted,safety_guardrails_score,safety_guardrails_weighted,trust_calibration_score,trust_calibration_weighted,personalization_continuity_score,personalization_continuity_weighted,interaction_level_dynamics_score,interaction_level_dynamics_weighted,total_weighted_score,severity,evidence_strength,evaluator_confidence,mitigation_suggestion,limitations,notes
+CASE-001,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CASE-002,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+CASE-003,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
